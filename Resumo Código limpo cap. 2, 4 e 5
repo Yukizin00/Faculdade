@@ -1,0 +1,98 @@
+# 📘 Resumo — Código Limpo (Capítulos 2, 4 e 5)
+
+---
+
+# ## Capítulo 2 — Nomes Significativos
+
+Esse capítulo mostra a importância de utilizar nomes claros e descritivos em variáveis, funções, classes e arquivos. O objetivo é fazer com que o código seja compreendido facilmente apenas pela leitura.
+
+O autor recomenda:
+- Evitar abreviações confusas;
+- Utilizar nomes objetivos;
+- Manter um padrão de nomenclatura;
+- Criar nomes que expliquem a intenção do código.
+
+#### ❌ Exemplo ruim
+```java
+int d;
+```
+
+#### ✅ Exemplo melhor
+```java id="93f5lo"
+int diasDesdeUltimoPagamento;
+```
+
+#### 📌 Importância
+
+Nomes significativos deixam o código mais legível, facilitam a manutenção do sistema e ajudam outros desenvolvedores a entenderem o projeto rapidamente.
+
+---
+
+# ## Capítulo 4 — Comentários
+
+O capítulo explica que comentários não devem ser usados para “consertar” códigos ruins. Um código bem escrito já deve ser suficientemente claro.
+
+Comentários desnecessários podem poluir o sistema e gerar confusão, principalmente quando ficam desatualizados.
+
+#### ❌ Comentário desnecessário
+```java id="0rqarf"
+// soma dois números
+total = a + b;
+```
+
+#### ✅ Código mais limpo
+```java id="o3mwt6"
+total = a + b;
+```
+
+#### ✅ Exemplo de comentário útil
+```java id="7sv6m6"
+// Necessário validar CPF antes de salvar no banco
+validarCPF(cpf);
+```
+
+#### 📌 Importância
+
+Comentários úteis ajudam na compreensão de regras importantes do sistema, enquanto comentários excessivos podem dificultar a leitura do código.
+
+---
+
+# ## Capítulo 5 — Formatação
+
+Esse capítulo aborda a organização visual do código. A forma como o código é formatado influencia diretamente na leitura e entendimento do sistema.
+
+O autor recomenda:
+- Utilizar indentação correta;
+- Separar blocos de código;
+- Manter padrão visual;
+- Organizar funções de maneira limpa.
+
+#### ❌ Código mal formatado
+```java id="y7suj1"
+if(usuarioLogado){realizarPagamento();}
+```
+
+#### ✅ Código bem formatado
+```java id="jlwm0d"
+if (usuarioLogado) {
+    realizarPagamento();
+}
+```
+
+#### 📌 Importância
+
+Uma boa formatação melhora a legibilidade, reduz erros e facilita a manutenção do projeto.
+
+---
+
+# ## Conclusão
+
+Os capítulos 2, 4 e 5 do livro *Código Limpo* mostram que desenvolver software vai além de fazer o programa funcionar.
+
+A utilização de nomes significativos, comentários adequados e boa formatação torna o código:
+- Mais organizado;
+- Mais fácil de entender;
+- Mais simples de manter;
+- Mais profissional.
+
+Esses conceitos ajudam no trabalho em equipe e contribuem para a criação de sistemas de maior qualidade.
